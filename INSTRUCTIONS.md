@@ -7,7 +7,7 @@ pip install git+https://github.com/PhysicsDan/opacplot2
 
 1) Get access to the [SESAME database](https://www.lanl.gov/org/ddste/aldsc/theoretical/physics-chemistry-materials/sesame-database.php)
 2) Search through the sesame.ascii file to find the 'code' for your element
-  - I recommend if you're using mac/linux using [less](https://www.tutorialspoint.com/unix_commands/less.htm) because the file is pretty long. You can then search by typing `\boron` and hitting enter to cycle through results. 
+  - I recommend if you're using mac/linux using [less](https://www.tutorialspoint.com/unix_commands/less.htm) because the file is pretty long. You can then search by typing `/boron` and hitting enter to cycle through results. 
   - Note down the number in the row below (it should be 4 digits like 2330 for boron). Type `q` and enter to quit less
 3) To extract your EOS from the database you must first use the `sesame_extract.py` script. This will make a *.ses* file which is used in the next step
 E.g. 
