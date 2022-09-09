@@ -29,3 +29,8 @@ python opac_convert.py --outname output.cn4 input.html
 
 ![](img/TOPS_output_data_type.png)
 ![](img/TOPS_output_table.png)
+
+After doing this you can add the .cn4 files to the relavent directories
+i.e. `FLASH4.6.2/source/Simulation/SimulationMain/LaserSlab/`
+You will also have to update the Config file in this location by adding the line
+`DATAFILES my_EOS_file.cn4`
