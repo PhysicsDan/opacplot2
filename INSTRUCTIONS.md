@@ -1,3 +1,5 @@
+Note: FLASH4.7 now supports use of the .ses file type. However, it is still useful to use this script to extract the .ses easilly from the .ascii file provided by SESAME.
+
 Using SESAME EOS database in FLASH
 These are just supplymentary notes. See [opacplot2](https://github.com/flash-center/opacplot2) github for more details.
 Note: There was a bug in one the scripts for .tops > .cn4 which I changed. You can install this updated version from [here](https://github.com/PhysicsDan/opacplot2) by running
